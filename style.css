@@ -104,9 +104,9 @@ div.desc {
 }
 
   .myTable { background-color:#FFFFE0;border-collapse:collapse;font-family:Georgia, Garamond, Serif;color:black; }
-  .myTable th { width:50%;font:bold 18px/1.1em Arial, Helvetica, Sans-Serif;text-shadow: 1px 1px 4px black;letter-spacing:0.3em;background-color:#BDB76B;color:white; }
+  .myTable th { width:25%;font:bold 18px/1.1em Arial, Helvetica, Sans-Serif;text-shadow: 1px 1px 4px black;letter-spacing:0.3em;background-color:#BDB76B;color:white; }
   .myTable td, .myTable th { padding:5px;border:1px solid #BDB76B; }
-  .myTable td { line-height:2.5em; }
+  .myTable td { line-height:3.5em; }
   
 .active {
 	background-color: #e0ec34; /* Add an active/current color */
