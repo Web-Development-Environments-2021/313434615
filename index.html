@@ -290,7 +290,59 @@
 <section id="contact" class="section">
   <h3 class="decorated"><span>Contact Me</span></h2>
 
-contact me
+<h4 >contact me</h4>
+
+<form  action="https://formsubmit.co/your@email.com" method="POST">
+  <textarea id = "nada" name="name" placeholder="write your message here" required  style="width:250px;height:150px;"></textarea></br>
+  <input id = "😀" type="button" value="😀" onclick="myFunction"> 
+  <input id = "😆" 	type="button" value="😆" onclick="myFunction"> 
+  <input id = "🤣" type="button" value="🤣" onclick="myFunction"> 
+  <input id = "🙃" type="button" value="🙃" onclick="myFunction"></br></br>
+  <input type="email" name="email" placeholder="Your Email Address" required> </br> </br>
+
+<script>
+  var text = document.getElementById("nada");
+  const emojies = ["😀", "😆", "🤣", "🙃" ];
+  for (i = 0; i < emojies.length; i++) {
+    const emojy = document.getElementById(emojies[i])
+    emojy.addEventListener('click', function() {
+      text.value += emojy.value;  
+    });
+  } 
+</script>
+  <button type="submit">Send</button></br></br>
+</form>
+</section>
+
+
+<!--
+<section id="contact" class="section">
+  <h3 class="decorated"><span>Contact Me</span></h2>
+
+    <h3 class="fcf-h3">Contact me</h3>
+
+<form action="mailto:chucky190715@gmail.com" method="post" enctype="text/plain">
+  <b>Your name</b><br>
+  <input type="text" name="name"><br>
+  <b>Your email address:</b><br>
+  <input type="text" name="email"><br>
+  <b>Add your message</b><br>
+
+  <input type="text" name="comment" size="50"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+
+  </form>
+  
+  <button onclick="myFunction()">Click me</button>
+
+  <p id="demo"></p>
+  
+  <script>
+  function myFunction() {
+    document.getElementById("demo1").innerHTML += "Hello World";
+  }
+  </script>
 
 <link href="contact-form.css" rel="stylesheet">
 
@@ -330,10 +382,8 @@ contact me
     </div>
 
 </div>
-
+-->
 </section>
-
-<script src="./app.js"></script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="hPNX3A97"></script>
 
