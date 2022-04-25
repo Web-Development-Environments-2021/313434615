@@ -11,13 +11,6 @@ body {
   width: 100%; 
 }
 
-.banner-content {
-  padding: 16px;
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
 .banner__lables {
 	float: right;
 	padding: 16px;
